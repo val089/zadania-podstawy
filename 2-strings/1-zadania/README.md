@@ -28,7 +28,7 @@ Wypisz w konsoli:
 
 
 ## Zadanie 5
-Korzystając z obiektu Math stwórz kilka losowych zmiennych z zakresu 10-100000. Wzór na losowe liczby znajdziesz na stronie https://kursjs.pl/math.
+Korzystając z obiektu Math stwórz kilka losowych zmiennych z zakresu 10-100000. Możesz skorzystać ze wzoru `Math.floor(Math.random()*(max-min+1)+min)`.
 Po wygenerowaniu wypisz je w konsoli tak, by wszystkie kończyły się w jednej linii. Przykładowo:
 
 ```
