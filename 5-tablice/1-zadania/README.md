@@ -51,26 +51,6 @@ Posortuj ją po długościach kolejnych elementów. Na początku powinien być n
 Mamy tablicę:
 
 ```
-const files = [
-    "zdjecie.jpg",
-    "wakacje.jpg",
-    "kolekcja.filmow.jpg",
-    "mem.gif",
-    "wpis.na.blog.txt",
-    "auto.png",
-    "archiwum.zip",
-    "dokument.txt",
-    "paczka.zip",
-    "kwiatek.png"
-]
-```
-
-Posegreguj tą tablicę po rozszerzeniach plików.
-
-## Zadanie 9
-Mamy tablicę:
-
-```
 const tabUsers = [
     {name : "Marcin", age: 14},
     {name : "Piotr", age: 18},
@@ -82,29 +62,21 @@ const tabUsers = [
 Za pomocą dowolnej pętli wypisz w konsoli imiona użytkowników, którzy są pełnoletni.
 Dodatkowe - spróbuj zrobić to zadanie także za pomocą odpowiedniej do tego celu funkcji.
 
-## Zadanie 10
+## Zadanie 9
 Napisz funkcję `checkPalindrom(txt)`, która zwróci true/false w zależności od tego, czy przekazane słowo jest palindromem.
 
+## Zadanie 10
+Napisz funkcję `generateRandomTable(min, max, count)`, która zwróci tablicę o długości `count`, w której będą losowe liczby z zakresu min-max. Do losowania liczb wykorzystaj funkcję z poprzedniego zadania.
+Sprawdź działanie funkcji w konsoli.
+
 ## Zadanie 11
-Mamy zdanie:
+Korzystając z funkcji z poprzedniego zadania wygeneruj pod zmienną `tab` 10-elementową tablicę z losowymi liczbami.
 
-```
-const txt = "Turlał goryl po Urlach kolorowe korale"
-```
-
-Policz ile w tym zdaniu jest liter (bez spacji), oraz ile jest wyrazów. Obie liczby wypisz w konsoli w ładnym tekście :)
+Napisz funkcję **getMinFromTab(arr)**, do której przekażesz powyższą tablicę.
+Funkcja powinna zwrócić najmniejszą liczbę z tablicy.
+Za pomocą console.log wypisz wartość zwróconą przez funkcję.
 
 ## Zadanie 12
-Mamy tablicę:
-
-```
-const tab = [1,2,3, [4,5,6, [7, 8]], 9, 10];
-```
-
-Policz sumę wszystkich liczb w tablicy.
-Następnie wypisz w konsoli tą sumę oraz średnią liczb.
-
-## Zadanie 13
 Stwórz funkcję `monthName(nr)`, która będzie przyjmować tylko jeden atrybut - numer miesiąca. Funkcja powinna sprawdzić czy numer miesiąca jest prawidłowy (1-12). Jeżeli tak jest powinna zwrócić nazwę miesiąca w języku polskim.
 
 Dla przykładu:
