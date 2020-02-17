@@ -4,14 +4,7 @@ Uwaga! Do tego zadania najlepiej poznać funkcje iteracyjne. Opisałem je na str
 http://kursjs.pl/kurs/super-podstawy/tablice-tematy-dodatkowe.php
 Można też pokusić się zrobić je bez tych metod. Po prostu będzie więcej kodowania.
 
-
-Do pliku index.html dołączone są 2 pliki js: js/app.js i js/data.js. W pliku data.js jest tablica użytkowników. Zadanie rozwiązuj w pliku js/app.js.
-
-Twoim zadaniem jest wykonać poniższe polecenia.
-
-Przy rozwiązywaniu poszczególnych zadań staraj się korzystać z odpowiednich metod dla tablic i używać jak najkrótszego zapisu.
-
-Przy rozwiązywaniu punktów staraj się unikać klasycznej pętli for/while.
+Do pliku index.html dołączone są 2 pliki js: `js/app.js` i `js/data.js`. W pliku `data.js` jest tablica użytkowników. Zadanie rozwiązuj w pliku `js/app.js`.
 
 ## Zadanie 1
 Wypisz imiona i nazwiska użytkowników oraz ich email np.

@@ -5,8 +5,7 @@ http://kursjs.pl/kurs/super-podstawy/tablice-tematy-dodatkowe.php
 Można też pokusić się zrobić je bez tych metod. Po prostu będzie więcej kodowania.
 
 ## Zadanie:
-
-W pliku **data/data.js** znajduje się tablica z państwami.
+Zadanie w sumie podobne do poprzednich dwóch. W pliku `data/data.js` znajduje się tablica z państwami.
 Stosując poznane metody zrealizuj poniższe zadania:
 
 ## Zadanie 1

@@ -4,11 +4,11 @@ Uwaga! Do tego zadania najlepiej poznać funkcje iteracyjne. Opisałem je na str
 http://kursjs.pl/kurs/super-podstawy/tablice-tematy-dodatkowe.php
 Można też pokusić się zrobić je bez tych metod. Po prostu będzie więcej kodowania.
 
-Do pliku html dołączone są 2 pliki: js/cities.js i js/app.js.
+Do pliku html dołączone są 2 pliki: `js/cities.js` i `js/app.js`.
 
 W pliku js/cities.js znajduje się tablica cities z miastami - każde miast to obiekt.
 
-Zadanie wykonuj w pliku js/app.js.
+Zadanie wykonuj w pliku `js/app.js`.
 Podobnie do zadania users - postaraj się używać odpowiednich funkcji dla tablic i stosować jak najkrótszy zapis.
 
 Przy rozwiązywaniu punktów staraj się unikać klasycznej pętli for/while.

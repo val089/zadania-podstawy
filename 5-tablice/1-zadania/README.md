@@ -13,10 +13,6 @@ Wykorzystaj odpowiednie metody. Po dodaniu elementów wypisz długość tablicy 
 ## Zadanie 4
 Usuń z tablicy 3 element ale tylko wtedy gdy ma ona tyle elementów.
 
-## Zadanie 5
-Stwórz tablicę 10 losowych całkowitych liczb z przedziału 10 - 20.
-Po utworzeniu tablicy wypisz w konsoli jej największy i najmniejszy element. Zadanie wykonaj za pomocą dowolnej pętli. Czy znasz lepszy sposób od zastosowania pętli?
-
 ## Zadanie 6
 Mamy tablicę:
 
@@ -67,17 +63,10 @@ Napisz funkcję `checkPalindrom(txt)`, która zwróci true/false w zależności 
 
 ## Zadanie 10
 Napisz funkcję `generateRandomTable(min, max, count)`, która zwróci tablicę o długości `count`, w której będą losowe liczby z zakresu min-max. Do losowania liczb wykorzystaj funkcję z poprzedniego zadania.
-Sprawdź działanie funkcji w konsoli.
+Wynik odpalenia funkcji podstaw po zmienną, a następnie wypisz ją w konsoli. Następnie wypisz w konsoli największą liczbę w tej tablicy.
 
 ## Zadanie 11
-Korzystając z funkcji z poprzedniego zadania wygeneruj pod zmienną `tab` 10-elementową tablicę z losowymi liczbami.
-
-Napisz funkcję **getMinFromTab(arr)**, do której przekażesz powyższą tablicę.
-Funkcja powinna zwrócić najmniejszą liczbę z tablicy.
-Za pomocą console.log wypisz wartość zwróconą przez funkcję.
-
-## Zadanie 12
-Stwórz funkcję `monthName(nr)`, która będzie przyjmować tylko jeden atrybut - numer miesiąca. Funkcja powinna sprawdzić czy numer miesiąca jest prawidłowy (1-12). Jeżeli tak jest powinna zwrócić nazwę miesiąca w języku polskim.
+Stwórz funkcję `monthName(nr)`, która będzie przyjmować tylko jeden atrybut - numer miesiąca. Funkcja powinna sprawdzić czy numer miesiąca jest prawidłowy (1-12). Jeżeli tak jest powinna zwrócić nazwę miesiąca w języku polskim. Wykorzystaj tutaj tablicę.
 
 Dla przykładu:
 `monthName(10) -> "październik"`
