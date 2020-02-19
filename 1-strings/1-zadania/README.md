@@ -5,7 +5,7 @@ Mamy tekst: `Koty to fajne zwierzaki`
 Wypisz w konsoli liczbę wyrazów w tym zdaniu.
 
 ## Zadanie 2
-Za pomocą funkcji [Prompt()](https://developer.mozilla.org/pl/docs/Web/API/Window/prompt) pobierz od użytkownika jego imię. Następnie używając odpowiednich funkcji dla stringów wypisz w konsoli to imię tak by było pisane małymi literami a rozpoczynało się od dużej litery np.
+Za pomocą funkcji [Prompt()](https://developer.mozilla.org/pl/docs/Web/API/Window/prompt) pobierz od użytkownika jego imię. Następnie używając odpowiednich funkcji dla stringów wypisz w konsoli to imię tak by było pisane małymi, literami a rozpoczynało się od dużej litery np.
 
 ```
 Witaj Piotr!

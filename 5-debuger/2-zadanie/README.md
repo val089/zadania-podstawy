@@ -18,7 +18,7 @@ Skrypt powinien zatrzymać się w odpowiedniej funkcji (strona przyciemniała, p
 
 ![](./_readme/breakpoint.png)
 
-Niech kod cię nie przeraża. Przeanalizuj linie 14-20. Czemu ten kod wykonuje nieporawne dodawanie?
+Przeanalizuj linie 14-20. Czemu ten kod wykonuje nieporawne dodawanie?
 
 Aby to sprawdzić, postaw breakpoint w linii 19 klikając na jej numer. Kliknij ikonkę Resume (prawy górny róg zakładki lub klawisz F8).
 

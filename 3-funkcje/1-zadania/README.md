@@ -9,24 +9,9 @@ Funkcja niech ZWRACA tekst `Liczba liter: ....` gdzie `....` to liczba liter tek
 Napisz funkcje, która zsumuje przekazaną do niej tablicę i zwraca jej sumę.
 Stwórz dowolną tablicę, a następnie przekaż ją do tej funkcji i wynik wypisz w konsoli.
 
+
 ## Zadanie 3
-Jaki będzie rezultat działania poniższego kodu?
-
-```
-const txt = "Marcin";
-
-function print(txt) {
-    console.log(txt);
-}
-
-print();
-```
-
-Komentarz napisz w głowie.
-
-## Zadanie 4
-Napisz funkcję, która przyjmie dowolny tekst.
-Funkcja niech zwraca tekst, który ma zmiksowana wielkość liter np:
+Napisz funkcję, która przyjmie dowolny tekst. Funkcja niech zwraca tekst, który ma zmiksowana wielkość liter np:
 
 ```
 input -> Ala ma kota
@@ -35,13 +20,13 @@ output -> AlA Ma kOtA
 
 Dla ułatwienia spacje liczmy jako literę.
 
-## Zadanie 5
+## Zadanie 4
 Napisz funkcje, która będzie wymagać 2 atrybutów.
 Funkcja niech sprawdza, czy oba atrybuty są liczbami.
 Funkcja ma zwracać iloczyn (*) obu liczb.
 Jeżeli któryś z atrybutów nie jest liczba, funkcja niech zwraca false.
 
-## Zadanie 6
+## Zadanie 5
 Napisz funkcje, która przyjmuje 2 parametry:
 1) imię - np: Ala
 2) miesiac - np: styczen
@@ -56,7 +41,7 @@ Wywołaj funkcje przekazując do niej zmienne: twoje imię i dowolny miesiąc.
 
 Dopisz w funkcji zabezpieczenie, które pozwoli wpisać miesiac małymi lub dużymi literami. Jeżeli miesiac jest "innym słowem", funkcja niech zwraca `"Ala uczy się JS"`
 
-## Zadanie 7
+## Zadanie 6
 Mamy przykładowy tekst:
 
 ```
@@ -75,7 +60,7 @@ Skorzystaj z odpowiedniej metody, tak aby rozdzielić przekazany do funkcji teks
 Wywołaj tę funkcję przekazując do niej str z początku zadania
 
 
-## Zadanie 8
+## Zadanie 7
 Napisz 2 funkcje. Każda z nich niech przyjmuje tablicę imion.
 
 Pierwsza funkcja niech zwraca nową tablicę, w której imiona są zapisane dużymi literami. Druga funkcja niech zwraca nową tablicę, w której imiona mają zmienną wielkość liter.
@@ -86,7 +71,7 @@ output1 -> ["ANIA" , "MARCIN" , "BARTEK" , "PIOTR"]
 output2 -> ["AnIa" , "MaRcIn" , "BaRtEk" , "PiOtR"]
 ```
 
-## Zadanie 9
+## Zadanie 8
 Napisz funkcję checkFemale, która sprawdza przekazane do niej imię.
 Zróbmy proste teoretyczne założenie, że jeżeli imię kończy się literą "a"
 to jest to żeńskie imię, w przeciwnym wypadku męskie.
@@ -98,7 +83,7 @@ checkFebale("Ania") === true
 checkFemale("Marcin") === false
 ```
 
-## Zadanie 10
+## Zadanie 9
 Napisz funkcję `countWomanInTable(arr)`, do której przekażesz tablicę userów, którą masz poniżej.
 Funkcja powinna sprawdzić każdego użytkownika w tablicy i zwrócić ile jest kobiet.
 Wykorzystaj tutaj funkcję z poprzedniego zadania.
@@ -120,3 +105,4 @@ const users = [
     "Katarzyna Melecka"
 ]
 ```
+
