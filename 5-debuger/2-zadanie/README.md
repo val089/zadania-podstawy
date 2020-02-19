@@ -18,9 +18,9 @@ Skrypt powinien zatrzymać się w odpowiedniej funkcji (strona przyciemniała, p
 
 ![](./_readme/breakpoint.png)
 
-Przeanalizuj linie 14-20. Czemu ten kod wykonuje nieporawne dodawanie?
+Przeanalizuj linie 12-20. Czemu ten kod wykonuje nieporawne dodawanie?
 
-Aby to sprawdzić, postaw breakpoint w linii 19 klikając na jej numer. Kliknij ikonkę Resume (prawy górny róg zakładki lub klawisz F8).
+Aby to sprawdzić, postaw breakpoint w linii 18 klikając na numer linii 18. Kliknij ikonkę Resume (prawy górny róg zakładki lub klawisz F8).
 
 Skrypt powinien zatrzymać się we wskazanym przez nas miejscu. W tym momencie możesz kursorem najeżdżać na wcześniejsze zmienne by zobaczyć ich wartość. Przy niektórych zmiennych dodatkowo debuger powinien pokazać ich wartość.
 

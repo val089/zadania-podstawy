@@ -5,7 +5,6 @@ const form = document.querySelector("form");
 [input1, input2].forEach(el => {
     el.addEventListener("input", function() {
         const newVal = this.value.replace(/[^0-9]*/g, '');
-        console.log(newVal)
         this.value = newVal
     });
 });
@@ -18,4 +17,4 @@ form.addEventListener("submit", function(e) {
 
     alert(`Wynik dodawania liczb ${val1} i ${val2} to: ${val1 + val2}`);
 
-})
+});
