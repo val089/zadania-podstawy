@@ -2,7 +2,6 @@ body {
     background: #d6ecfa;
     overflow: hidden;
 }
-
 .popup {
     position: fixed;
     top:0;
