@@ -26,7 +26,6 @@ Wygeneruj i wypisz w konsoli tekst:
 ```
 
 Tekst w ramce powinien być postawiony pod zmienną, tak by łatwo można było go zmienić. Narożniki wygeneruj po prostu kopiując odpowiedni znaki z powyższego przykładu.
-Uwaga. Do powtarzania tekstu możesz skorzytać z metody
 
 Rozbuduj to zadanie tak, by tekst był podawany przez użytkownika za pomocą [Prompt()](https://developer.mozilla.org/pl/docs/Web/API/Window/prompt). Jeżeli tekst jest dłuższy od 20 znaków, wyświetl tylko 20 i pokaż `...`. Przycięcie możesz dokonać za pomocą [Slice()](https://developer.mozilla.org/pl/docs/Web/JavaScript/Referencje/Obiekty/String/slice)
 

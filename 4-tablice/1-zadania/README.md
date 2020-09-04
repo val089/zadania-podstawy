@@ -61,10 +61,13 @@ Dodatkowe - spróbuj zrobić to zadanie także za pomocą odpowiedniej do tego c
 Napisz funkcję `checkPalindrom(txt)`, która zwróci true/false w zależności od tego, czy przekazane słowo jest palindromem.
 
 ## Zadanie 8
+Napisz funkcję, która zwróci losową liczbę z przedziału min-max.
+
+## Zadanie 9
 Napisz funkcję `generateRandomTable(min, max, count)`, która zwróci tablicę o długości `count`, w której będą losowe liczby z zakresu min-max. Do losowania liczb wykorzystaj funkcję z poprzedniego zadania.
 Wynik odpalenia funkcji podstaw po zmienną, a następnie wypisz ją w konsoli. Następnie wypisz w konsoli największą liczbę w tej tablicy.
 
-## Zadanie 9
+## Zadanie 10
 Stwórz funkcję `monthName(nr)`, która będzie przyjmować tylko jeden atrybut - numer miesiąca. Funkcja powinna sprawdzić czy numer miesiąca jest prawidłowy (1-12). Jeżeli tak jest powinna zwrócić nazwę miesiąca w języku polskim. Wykorzystaj tutaj tablicę.
 
 Dla przykładu:
