@@ -7,7 +7,13 @@ const tab = [[0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,3,3,3,3,3,0,0,0,0,0],[0,0,0,
 //START
 //-----------------------------------------
 let text = '';
-
+for (let sub of tab) {
+    for (let el of sub) {
+        const color = colors[el];
+        text += '<div style="background:' + color + '"></div>';
+    }
+    text += "<br>";
+}
 
 
 //tutaj wstawiamy do div wygenerowany html - nie ruszaj poniższej linijki
