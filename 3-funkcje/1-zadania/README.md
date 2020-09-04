@@ -79,7 +79,7 @@ Funkcja powinna wracać true jeżeli imię jest żeńskie i false jeżeli jest m
 Przykładowo:
 
 ```
-checkFebale("Ania") === true
+checkFemale("Ania") === true
 checkFemale("Marcin") === false
 ```
 
