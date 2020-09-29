@@ -99,6 +99,19 @@
             else {
                 return `${name} uczy sie JS.`;
             }
+
+            // if (["grudzien", "styczne", "luty"].includes(month)) {
+            //     return `${name} jezdzi na sankach`;
+            // }
+            // if (["marzec", "kwiecien", "maj"].includes(month)) {
+            //     return `${name} chodzi po kałużach`;
+            // }
+            // if (["czerwiec", "lipiec", "sierpien"].includes(month)) {
+            //     return `${name} się opala`;
+            // }
+            // if (["wrzesien", "pazdziernik", "listopad"].includes(month)) {
+            //     return `${name} zbiera liscie`;
+            // }
         }
 
         console.log(getSeason('Kamil', 'luty'));
@@ -187,6 +200,9 @@
             } else {
                 return false;
             }
+
+            //krótsza opcja
+             // return name.substr(-1).toLowerCase() === "a";
         }
 
         console.log(checkFemale('Kamil'));
