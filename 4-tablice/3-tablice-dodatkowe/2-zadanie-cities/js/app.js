@@ -4,8 +4,8 @@ console.log(cities.length);
 
 // ## Zadanie 2
 // Wypisz ile jest ludzi w tych miastach
-const people = cities.reduce((a, b) => {
-    return a + b.population
+const peopleCount = cities.reduce((a, b) => {
+    return a + b.people
 }, 0);
 console.log(people);
 
