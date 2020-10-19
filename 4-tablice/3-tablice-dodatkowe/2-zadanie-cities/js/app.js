@@ -16,7 +16,7 @@ console.log(firstBig);
 
 // ## Zadanie 4
 // Wypisz miasta, w których ludzi jest ponad średnią
-const avg = people / cities.length;
+const avg = peopleCount / cities.length;
 const aboveAvg = cities.filter(city => city.people > avg);
 console.log(aboveAvg);
 
